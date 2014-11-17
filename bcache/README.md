@@ -10,11 +10,7 @@ Configure
 Add configuration to collectd-bcache-plugin into <Plugin python> section at collectd.conf<br>
 
 <pre>
-<<<<<<< HEAD
 <Plugin python>
-=======
-<Plugin python><br>
->>>>>>> 9d4f057fa67a5e9aa2ffda0d63ff3f68d8a227ec
     ModulePath "/usr/share/collectd-plugins"
     Encoding "utf-8"
     LogTraces true
