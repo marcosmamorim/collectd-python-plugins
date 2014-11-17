@@ -9,6 +9,7 @@ Configure
 
 Add configuration to collectd-bcache-plugin into <Plugin python> section at collectd.conf<br>
 
+<pre>
 <Plugin python>
     ModulePath "/usr/share/collectd-plugins"
     Encoding "utf-8"
@@ -19,6 +20,7 @@ Add configuration to collectd-bcache-plugin into <Plugin python> section at coll
         Verbose true
     </module>
 </Plugin>
+</pre>
 
 Graphite
 ========
